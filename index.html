@@ -39,7 +39,7 @@
         <div class="row">
             <h1 class="text-center">i<span>PSY</span> Pizza Menu</h1>        
             <p class="menu">
-                Order Pizza from i<span>PSY</span> and Nourish Your Taste Buds.         
+                Order Pizza from i<span>PSY</span> <br>and Nourish Your Taste Buds.         
             </p>   
         </div>
         <br>
@@ -81,51 +81,80 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-xs-6 col-md-3">
-                <img class="pizza-image" src="./images/iPSY Deluxe.png">
-                <h4 class="pizza-name">iPSY Deluxe Pizza</h4>
-                <div class="description">
-                    <p>
-                        Pork <br> Smoked ipsy cheese<br> Crumbled Italian sausage <br> fried ipsy steak <br>Salami
-                    </p>                    
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-                <img class="pizza-image" src="./images/meat-deluxe-pizza-delicious-38470928-removebg-preview.png">
-                <h4 class="pizza-name">Meat Deluxe Pizza</h4>
-                <div class="description">
-                    <p>
-                        Minced meat<br>Mozzarella cheese <br> Dry cured pepperoni<br>Green and red peppers <br>Diced onions.
-                    </p>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-                <img class="pizza-image" src="./images/supreme pizza.webp">
-                <h4 class="pizza-name">Supreme Pizza</h4>
-                <div class="description">
-                    <p>
-                        Canadian bacon <br> Sweet red pepper <br>Mozarella cheese<br> Bulk Italian sausage
-                    </p>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-                <img class="pizza-image" src="./images/veggiepizza.webp">
-                <h4 class="pizza-name">Veggie Pizza</h4>
-                <div class="description">
-                    <p>
-                        Sweet corn Kernels <br> Kale <br> Brussel sprouts <br> Crescent rolls <br> Cream cheese
-                    </p>
-                </div>
-            </div>
+        </div>        
           </div>
           <h3>Order i<span>PSY</span> Pizza Now</h3>  
           <br>
-          
+          <br>     
+          <div class="row">
+            <div class="col-md-3">
+                <h4>Choose Your Pizza</h4>
+                <form method="POST">
+                    <div class="form-group checkbox"> 
+                        <label class="order">                    
+                             <input type="checkbox" id="pizzaName" value="Chicken BBQ Pizza">
+                             Chicken BBQ Pizza
+                        </label>             
+                    </div>
+                    <div class="form-group checkbox"> 
+                        <label class="order">
+                            <input type="checkbox" id="pizzaName" value="Buffalo Pizza">
+                            Buffalo Pizza
+                        </label>             
+                    </div>
+                    <div class="form-group checkbox"> 
+                        <label class="order">
+                            <input type="checkbox" id="pizzaName" value="Chicken Tikka Pizza">
+                            Chicken Tikka Pizza
+                        </label>             
+                    </div>
+                    <div class="form-group checkbox"> 
+                        <label class="order">
+                            <input type="checkbox" id="pizzaName" value="iPSY Chicken Pizza">
+                            iPSY Chicken Pizza
+                        </label>             
+                    </div>                      
+                  </form>
+            </div>
+            <div class="col-md-5">
+                <form method="POST">
+                    <label for="pizza-crust">Choose Pizza size</label> 
+                    <select class="orders" id="sizeOfPizza">
+                        <option value="small">Small Kshs. 400</option>
+                        <option value="medium">Medium Kshs. 500 </option>
+                        <option value="large">Large Kshs. 700</option>
+                    </select>
+                    <br><br><br><br><br>
+                    <label for="pizza-toppings">Choose Pizza toppings</label>
+                    <select class="order" id="toppings">
+                        <option value="none">none</option>
+                        <option value="Pineapple toppings">Pineapple Kshs. 150</option>
+                        <option value="Onions toppings">Onions Kshs. 100</option>
+                        <option value="Bacon toppings">Bacon Kshs. 200</option>
+                    </select>
+                    <br><br><br><br><br>
+                    <label for="pizza-crust">Pizza crust</label>
+                    <select class="order" id="crust">
+                        <option value="Gluten free">Gluten free Kshs. 150</option>
+                        <option value="Crispy">Crispy Kshs. 200</option>
+                        <option value="Stuffed">Stuffed Kshs. 250</option>
+                    </select>
+                    <br><br><br><br>
+                    <label for="number">Number of Pizzas</label>
+                    <input type="number" placeholder="number of pizzas" min="1" id="number"   required>
+                    <br><br>
+                    <label for="pizza-delivery">You want your pizza delivered?</label>
+                    <select id="delivery">
+                        <option value="yes">YES Kshs 100</option>
+                        <option value="no">NO</option>
+                    </select>
+                    <br><br>
+                    <button class="btn btn-default" type="submit">Order</button>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
     </div>      
 </body>
 </html>
+             
