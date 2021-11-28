@@ -39,5 +39,17 @@ span{
     background-color: #0e1940;
     color: white;
 }
-
+.pizza-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.pizza-name{
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pizza-name:hover{
+    color: blue;
+}
 
