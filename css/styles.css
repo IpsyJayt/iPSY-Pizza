@@ -42,7 +42,7 @@ span{
     height: 200px;
     border-radius: 50%;
 }
-.pizza-name{
+.pizza-name1, .pizza-name2, .pizza-name3, .pizza-name4{
     text-align: center;
     cursor: pointer;
     text-decoration: underline;
@@ -51,18 +51,18 @@ span{
 .pizza-name:hover{
     color: blue;
 }
-.description{
+.description1, .description2,.description3,.description4{
     text-align: center;
     display: none;
 }
 h3{
     text-align: center;
 }
-option{
-    padding: 120px;
-}
 .btn-default{
     padding: 10px;
     background-color: chartreuse;
     color: white;
+}
+h4{
+    color: red;
 }

@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
     <title>iPSY.Pizza</title>
 </head>
 <body>
@@ -47,8 +49,8 @@
         <div class="row">
             <div class="col-xs-6 col-md-3">
                 <img class="pizza-image" src="./images/bbq.webp">
-                <h4 class="pizza-name">Chicken BBQ</h4>
-                <div class="description">
+                <h4 class="pizza-name1">Chicken BBQ</h4>
+                <div class="description1">
                     <p>
                         Barbeque sauce <br> Diced chicken <br> Cilantro<br> Peppers <br>Onion rings
                     </p>
@@ -56,8 +58,8 @@
             </div>
             <div class="col-xs-6 col-md-3">
                 <img class="pizza-image" src="./images/buffalo pizza.webp">
-                <h4 class="pizza-name">Buffalo Pizza</h4>
-                <div class="description">
+                <h4 class="pizza-name2">Buffalo Pizza</h4>
+                <div class="description2">
                     <p>
                         Shredded chicken<br> Spicy buffalo sauce<br> Blue cheese crumbles <br> Cilantro
                     </p>
@@ -65,8 +67,8 @@
             </div>
             <div class="col-xs-6 col-md-3">
                 <img class="pizza-image" src="./images/chicken-tikka-pizza.png">
-                <h4 class="pizza-name">Chicken Tikka Pizza</h4>
-                <div class="description">
+                <h4 class="pizza-name3">Chicken Tikka Pizza</h4>
+                <div class="description3">
                     <p>
                         Boneless chicken breast<br> Mozzarella Cheese <br> Cilantro <br> Cayenne pepper <br> Garam masala
                     </p>
@@ -74,8 +76,8 @@
             </div>
             <div class="col-xs-6 col-md-3">
                 <img class="pizza-image" src="./images/ipsy chicken pizza.png">
-                <h4 class="pizza-name">iPSY Chicken Pizza</h4>
-                <div class="description">
+                <h4 class="pizza-name4">iPSY Chicken Pizza</h4>
+                <div class="description4">
                     <p>
                         Skinless chicken breast <br> Smoked ipsy cheese <br> Pepperoncini peppers <br> Cilantro
                     </p>
@@ -87,6 +89,7 @@
           <br>
           <br>     
           <div class="row">
+              <div class="col-md-1"></div>
             <div class="col-md-3">
                 <h4>Choose Your Pizza</h4>
                 <form method="POST">
@@ -116,7 +119,7 @@
                     </div>                      
                   </form>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <form method="POST">
                     <label for="pizza-crust">Choose Pizza size</label> 
                     <select class="orders" id="sizeOfPizza">
@@ -145,7 +148,7 @@
                     <br><br>
                     <label for="pizza-delivery">You want your pizza delivered?</label>
                     <select id="delivery">
-                        <option value="yes">YES Kshs 100</option>
+                        <option value="yes">YES</option>
                         <option value="no">NO</option>
                     </select>
                     <br><br>
@@ -153,6 +156,10 @@
                 </form>
             </div>
             <div class="col-md-4"></div>
+          </div>
+          <div class="footer">
+
+
           </div>
     </div>      
 </body>
