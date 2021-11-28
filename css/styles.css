@@ -1,0 +1,15 @@
+nav {
+    font-size: larger;
+}
+.navbar-header{
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+body{
+    background-color: #dedace;
+}
+span{
+    color: red;
+}
+
