@@ -6,10 +6,18 @@ nav {
     font-weight: 700;
     font-family: 'M PLUS Code Latin', sans-serif;
 }
+
 body{
     background-color: #dedace;
 }
 span{
     color: red;
 }
+.intro-text{
+    font-size: 50px;
+    font-weight: 500px;
+    margin-top: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
