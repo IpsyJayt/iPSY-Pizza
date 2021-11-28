@@ -48,8 +48,13 @@ span{
     text-align: center;
     cursor: pointer;
     text-decoration: underline;
+    color: red;
 }
 .pizza-name:hover{
     color: blue;
+}
+.description{
+    text-align: center;
+    display: none;
 }
 
