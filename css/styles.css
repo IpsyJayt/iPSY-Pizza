@@ -27,13 +27,11 @@ span{
 }
 .menu{
     font-size:x-large; 
-    border: 2px #0e1940 solid;
-    width: fit-content; 
     margin-top: 2%;
-    margin-left: 31%;
     padding: 5px;
     color:#0e1940;
     box-shadow: 2px 2px 2px #0e1940;
+    text-align: center;
 }
 .menu:hover{
     background-color: #0e1940;
@@ -56,5 +54,8 @@ span{
 .description{
     text-align: center;
     display: none;
+}
+h3{
+    text-align: center;
 }
 
