@@ -30,33 +30,33 @@ var pizzaDelivery = document.getElementById('delivery').value;
     // business logic
 
     if(pizzaSize=="small"){
-        var sizePrice= 400
+        var sizePrice = 400
     } else if (pizzaSize=="medium"){
-        sizePrice=500
+        sizePrice = 500
     }else if(pizzaSize=="large"){
-        sizePrice=700
+        sizePrice = 700
     };
     if (pizzaTopping == "none"){
         var toppingPrize = 0
     } else if (pizzaTopping=="Pineapple toppings"){
-        toppingPrize=150
+        toppingPrize = 150
     }else if (pizzaTopping=="Onions toppings"){
         toppingPrize = 100
     } else if (pizzaTopping == "Bacon toppings"){
         toppingPrize = 200
     };
     if(pizzaCrust=="Gluten free"){
-        var crustPrize= 150
+        var crustPrize = 150
     } else if(pizzaCrust=="Crispy"){
-        crustPrize=200
+        crustPrize = 200
     } else if(pizzaCrust=="Stuffed"){
-        crustPrize == 250
+        crustPrize = 250
     };
     var total = (sizePrice + toppingPrize + crustPrize)*pizzaNumber
     if(pizzaDelivery=="yes"){
         const deliveryFee=100
         var deliveryLocation = prompt("Enter Delivery Location")
-        alert("Your order of " +pizzaNumber+" "+ pizzaSize+" "+pizzaCrust+" "+ pizzaName +" "+" with " + pizzaTopping + " costs " + total+ " and will be delivered to " + deliveryLocation+ " at a delivery fee of "+ deliveryFee)
+        alert("Your order of " +pizzaNumber+" "+ pizzaSize+" "+pizzaCrust+" "+ pizzaName +" "+" with " + pizzaTopping + " costs " + total + " and will be delivered to " + deliveryLocation+ " at a delivery fee of "+ deliveryFee)
     }else {
         alert ("Pick your " + pizzaNumber+ " "+pizzaCrust+" "+pizzaName+ " with " +pizzaTopping+ " at iPSY Pizza")
     }
