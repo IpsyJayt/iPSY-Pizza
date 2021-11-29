@@ -1,7 +1,9 @@
 # Project name.
 ## iPSY Pizza
-Author(s) information.
-RODGERS JAYUGA
+# Project Description
+This is a Pizza shop website that allows users to check out the iPSY Pizza menus and order their preferred pizzas
+# Author(s) information.
+#### RODGERS JAYUGA
 # Setup instructions
 ### Compatible Devices
 * Phone
@@ -11,6 +13,8 @@ RODGERS JAYUGA
 ### Requirements
 * Internet access.
 * Live link : https://ipsyjayt.github.io/iPSY-Pizza/
+# Bugs
+There are no known bugs and the website is working properly
 # BDD.
 Design the ipsy pizza website.
 Create the ipsy pizza website using HTML and CSS.
