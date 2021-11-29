@@ -27,6 +27,7 @@ var pizzaDelivery = document.getElementById('delivery').value;
 
     var pizzaOrder = "Your order is " + pizzaNumber + " "+ pizzaSize +" "+ pizzaName
     alert(pizzaOrder);
+    // business logic
 
     if(pizzaSize=="small"){
         var sizePrice= 400
@@ -53,8 +54,9 @@ var pizzaDelivery = document.getElementById('delivery').value;
     };
     var total = (sizePrice + toppingPrize + crustPrize)*pizzaNumber
     if(pizzaDelivery=="yes"){
+        const deliveryFee=100
         var deliveryLocation = prompt("Enter Delivery Location")
-        alert("Your order of " +pizzaNumber+" "+pizzaCrust+" "+ pizzaName +" "+" with " + pizzaTopping + " costs " + total+ " and will be delivered to " + deliveryLocation)
+        alert("Your order of " +pizzaNumber+" "+ pizzaSize+" "+pizzaCrust+" "+ pizzaName +" "+" with " + pizzaTopping + " costs " + total+ " and will be delivered to " + deliveryLocation+ " at a delivery fee of "+ deliveryFee)
     }else {
         alert ("Pick your " + pizzaNumber+ " "+pizzaCrust+" "+pizzaName+ " with " +pizzaTopping+ " at iPSY Pizza")
     }
